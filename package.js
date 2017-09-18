@@ -16,8 +16,8 @@ Package.onUse(function(api) {
   // api.addFiles('bootstrap-ui-datetime-picker.js');
 
   // Dependencies
-  api.use('angular:angular@1.4.0', 'client');
-  api.use('angularui:angular-ui-bootstrap@1.1.0', 'client');
+  api.use('angular:angular@1.6.2', 'client');
+  api.use('angularui:angular-ui-bootstrap@2.5.0', 'client');
 
   api.addFiles('dist/datetime-picker.js', 'client'); // Files in use
 });
